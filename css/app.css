@@ -3,13 +3,34 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Alegreya', serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* MENU */
 body > header ul {
     display: flex;
     list-style: none;
     gap: 1rem;
     justify-content: flex-end;
     background-color: grey;
+    text-decoration: none;
+}
 
+/* SECTION A PROPOS */
+#about > .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* SECTION "DERNIERS ARTICLES" */
+#last-articles h2 {
+	text-align: center;
+	margin: 2rem 0;
 }
