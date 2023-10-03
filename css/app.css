@@ -1,0 +1,44 @@
+/*  GENERAL  */
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* MENU*/
+body > header ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+/* SECTION A PROPOS */
+#about > .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* SECTION A PROPOS */
+#last-articles h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#last-articles .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    gap: 1.5rem;
+}
